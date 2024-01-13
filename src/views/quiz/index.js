@@ -4,7 +4,7 @@ import '../../App.css'
 function Login({nombre}) {
   return (
     <div className="title-container">
-      <h1 className="title text-start">Curso {nombre}</h1>
+      <h1 className="title text-start">Cuestionario {nombre}</h1>
     </div>
   )}
 
