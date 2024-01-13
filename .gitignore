@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+*.swp
+*.swo
+.env
+*.code-workspace
+.DS_Store
