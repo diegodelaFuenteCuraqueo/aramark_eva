@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../App.css'
 
-function Course() {
+function Course({nombre}) {
   return (
-    <div>
-      <h1>Course</h1>
+    <div className="title-container">
+      <h1 className="title text-start">Curso {nombre}</h1>
     </div>
   );
 }

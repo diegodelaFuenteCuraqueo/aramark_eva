@@ -1,11 +1,12 @@
-import React from 'react';
+import React from 'react'
 import '../../App.css'
+import HomeComponent from './HomeComponent'
 
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <HomeComponent />
+    </>
   );
 }
 

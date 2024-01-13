@@ -37,17 +37,56 @@
   }
 }
 
+@font-face {
+  font-family: 'RecklessNeue';
+  src: url('../public/assets/RecklessNeue-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../public/assets/GothamSSm-Book_Web.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1 {
+  font-family: 'RecklessNeue';
+  font-weight: bolder;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+/*h1.title {
   margin-top: 84px !important;
+}*/
+
+.title-container {
+  margin-left: 40px;
+  margin-top: 84px !important;
+}
+
+h2, h3 {
+  font-weight: bold;
+  font-family: 'RecklessNeue';
+  text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+p {
+  font-family: 'Gotham';
 }
 
 .grow {
   scale: 1 !important;
   cursor: pointer;
-  transition: all 0.3s ease-in-out !important;
+  transition: all 0.4s ease-in-out !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
 }
 .grow:hover {
   cursor: pointer;
-  scale: 1.1 !important;
-  transition: all 0.3s ease-in-out !important;
+  scale: 1.05 !important;
+  transition: all 0.2s ease-in-out !important;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
 }
+
+

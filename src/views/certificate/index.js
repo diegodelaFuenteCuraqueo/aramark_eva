@@ -3,10 +3,10 @@ import '../../App.css'
 
 function Certificate() {
   return (
-    <div>
-      <h1>Certificate</h1>
+    <div className="title-container">
+      <h1 className="title text-start">Certificado</h1>
     </div>
-  );
+  )
 }
 
 export default Certificate;
