@@ -1,15 +1,58 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import VideoCard from '../../components/VideoCard.js'
 import '../../App.css'
 import './styles.css'
 
-function Course({nombreClase = "nombre de la clase", videoSrc, descripcion= "descripción de la clase", nombreCurso = "nombre del curso"}) {
+function Course() {
+  const location = useLocation()
+  const navigate = useNavigate()
+  const {title, description, imageSrc, classes} = location.state.course
+
+  const handleClick = (classData) => () => {
+    console.log(classData)
+    navigate("/class", {state: {classData}})
+  }
+
+  const videoList = classes.map((classItem, index) => {
+    return (
+      <VideoCard
+        key={index}
+        title={ (index+1)+". "+classItem.title }
+        description={classItem.description}
+        imageSrc={imageSrc}
+        clickAction={ handleClick({course: title, ...classItem})}
+      />
+    )
+  })
+
   return (
     <>
-    <div className="title-container">
-      <h1 className="title text-start">Curso {nombreCurso}</h1>
-    </div>
+      <div className="title-container">
+        <h1 className="title text-start">Curso {title}</h1>
+      </div>
+
+      <div className="course-image w-100 text-center">
+        <img className="" src={imageSrc} alt="Aramark Logo"></img>
+      </div>
+
       <div className="d-flex justify-content-center course-container" style={{borderColor: "green"}}>
-    </div>
+
+        <div className="text-center home-element">
+          <div className="course-element-description">
+            <p>{description}</p>
+          </div>
+        </div>
+
+        <div className="text-center home-element">
+          <h2 className="text-start course-element-title">Clases</h2>
+          <div className="">
+            {videoList}
+          </div>
+        </div>
+
+      </div>
     </>
   )
 }

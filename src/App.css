@@ -57,13 +57,10 @@ h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
-/*h1.title {
-  margin-top: 84px !important;
-}*/
 
 .title-container {
   margin-left: 40px;
-  margin-top: 84px !important;
+  margin-top: 70px !important;
 }
 
 h2, h3 {
@@ -80,13 +77,18 @@ p {
   scale: 1 !important;
   cursor: pointer;
   transition: all 0.4s ease-in-out !important;
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
 }
 .grow:hover {
   cursor: pointer;
   scale: 1.05 !important;
   transition: all 0.2s ease-in-out !important;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+}
+
+.shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.shadow:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, .8);
 }
 
 

@@ -3,7 +3,7 @@ import "./style.css"
 
 export default function VideoCard({title, description, imageSrc, clickAction}) {
   return (
-    <div className="card card-container grow" onClick={clickAction}>
+    <div className="card card-container grow shadow" onClick={clickAction}>
       <div className="card-img">
         <img src={imageSrc} alt="..." />
       </div>

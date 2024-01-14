@@ -3,10 +3,10 @@ import './styles.css'
 import { useNavigate } from 'react-router-dom';
 
 export default function LoginComponent() {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   const handleClick = () => {
-    navigate("/home");
+    navigate("/home")
   }
 
   return (
