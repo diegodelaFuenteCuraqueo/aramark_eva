@@ -1,5 +1,3 @@
-import React from 'react'
-import '../../App.css'
 import HomeComponent from './HomeComponent'
 
 function Home() {
@@ -7,7 +5,7 @@ function Home() {
     <>
       <HomeComponent />
     </>
-  );
+  )
 }
 
 export default Home;

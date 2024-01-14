@@ -26,7 +26,7 @@ export default function HomeComponent() {
 
 
   return (
-    <>
+    <div className="fade-in">
     <div className="title-container">
       <h1 className="title text-start">Bienvendio usuario!</h1>
     </div>
@@ -60,7 +60,7 @@ export default function HomeComponent() {
       </div>
 
     </div>
-    </>
+    </div>
   );
 }
 

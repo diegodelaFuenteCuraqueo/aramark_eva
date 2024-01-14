@@ -1,11 +1,10 @@
-import React from 'react';
-import '../../App.css'
+import CertificateComponent from './CertificateComponent'
 
 function Certificate() {
   return (
-    <div className="title-container">
-      <h1 className="title text-start">Certificado</h1>
-    </div>
+    <>
+      <CertificateComponent />
+    </>
   )
 }
 

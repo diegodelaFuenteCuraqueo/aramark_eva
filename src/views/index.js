@@ -7,10 +7,12 @@ import Class from "./class"
 import Quiz from "./quiz"
 import Certificate from "./certificate"
 import NavigationBar from "../components/NavegationBar"
+import ScrollToTop from "../components/ScrollToTop"
 
 export default function Views() {
   return (
     <Router>
+      <ScrollToTop />
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Login />} />
