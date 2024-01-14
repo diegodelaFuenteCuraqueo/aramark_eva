@@ -19,7 +19,7 @@ export default function LoginComponent() {
         <div className="login-form w-100 text-center">
 
         <div className="login-title w-100 text-center">
-          <h1>Entorno Virtual de Aprendizaje</h1>
+          <h1>Academia Virtual</h1>
         </div>
 
           <form>

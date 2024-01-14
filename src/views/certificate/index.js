@@ -8,4 +8,4 @@ function Certificate() {
   )
 }
 
-export default Certificate;
+export default Certificate

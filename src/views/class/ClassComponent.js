@@ -1,10 +1,16 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import '../../App.css'
 import './styles.css'
 
 function ClassComponent() {
   const location = useLocation()
+  const navigate = useNavigate()
+
+  const handleClick = () => {
+    navigate("/quiz")
+  }
+
   const {course, title, description, videoSrc} = location.state.classData
 
   return (
@@ -39,7 +45,7 @@ function ClassComponent() {
           <p>Realiza el cuestionario para evaluar tus aprendizajes y continuar con el curso</p>
         </div>
         <div className="class-description-element">
-          <button className="btn btn-primary quiz-btn">Realizar Quiz</button>
+          <button className="btn btn-primary quiz-btn" onClick={handleClick}>Realizar Quiz</button>
         </div>
       </div>
     </div>

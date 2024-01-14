@@ -1,11 +1,10 @@
-import React from 'react'
-import '../../App.css'
+import QuizComponent from "./QuizComponent"
 
-function Login({nombre}) {
+function Quiz({nombre}) {
   return (
-    <div className="title-container">
-      <h1 className="title text-start">Cuestionario {nombre}</h1>
-    </div>
+    <>
+      <QuizComponent />
+    </>
   )}
 
-export default Login;
+export default Quiz
