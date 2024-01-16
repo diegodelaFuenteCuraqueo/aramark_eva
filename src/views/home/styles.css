@@ -29,6 +29,6 @@
   translate: -6px;
   margin: 20px;
   background: rgb(3,32,52);
-  background: linear-gradient(72deg, rgba(3,32,52,1) 0%, rgba(255,255,255,1) 93%);
+  background: linear-gradient(72deg, #dc3545 0%, rgba(255,255,255,1) 93%);
 }
 

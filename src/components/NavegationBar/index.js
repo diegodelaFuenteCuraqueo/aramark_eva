@@ -18,8 +18,8 @@ export default function NavigationBar() {
 
             <Dropdown.Menu>
               <Dropdown.Item as={Link} to="/home">Home</Dropdown.Item>
-              <Dropdown.Item as={Link} to="/course">Course</Dropdown.Item>
-              <Dropdown.Item as={Link} to="/videoplayer">VideoPlayer</Dropdown.Item>
+              {/*<Dropdown.Item as={Link} to="/course">Course</Dropdown.Item>*/}
+              {/*<Dropdown.Item as={Link} to="/videoplayer">VideoPlayer</Dropdown.Item>*/}
               <Dropdown.Item as={Link} to="/quiz">Quiz</Dropdown.Item>
               <Dropdown.Item as={Link} to="/certificate">Certificate</Dropdown.Item>
               <Dropdown.Item as={Link} to="/login">Cerrar sesión</Dropdown.Item>

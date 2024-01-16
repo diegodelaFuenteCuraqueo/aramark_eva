@@ -24,7 +24,6 @@ export default function HomeComponent() {
     )
   }
 
-
   return (
     <div className="fade-in">
     <div className="title-container">

@@ -7,6 +7,7 @@ import Class from "./class"
 import Quiz from "./quiz"
 import Certificate from "./certificate"
 import NavigationBar from "../components/NavegationBar"
+import Assistant from "../components/Assistant/AssistantComponent"
 import ScrollToTop from "../components/ScrollToTop"
 
 export default function Views() {
@@ -23,6 +24,7 @@ export default function Views() {
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/certificate" element={<Certificate />} />
       </Routes>
+      <Assistant />
     </Router>
   )
 }
