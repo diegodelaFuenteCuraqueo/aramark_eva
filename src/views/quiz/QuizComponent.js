@@ -21,9 +21,7 @@ function QuizComponent() {
         ))
       }
 
-      <hr>
-        
-      </hr>
+      <hr></hr>
       <div className="quiz-button-container">
         <button className='btn btn-primary' onClick={handleClick}>Terminar Cuestionario</button>
       </div>

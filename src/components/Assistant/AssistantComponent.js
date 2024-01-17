@@ -57,15 +57,7 @@ export default function Assistant() {
 
   return (
     <div>
-      <div
-        className="assistant-container"
-        style={{
-          position: 'fixed',
-          bottom: '15px',
-          right: '15px',
-          zIndex: 9998,
-        }}
-      >
+      <div className="assistant-container">
         <img src="/assets/teacher.png" alt="assistant" className="assistant-logo" onClick={handleFloatingButtonClick}/>
       </div>
 
