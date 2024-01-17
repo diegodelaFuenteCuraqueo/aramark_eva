@@ -28,8 +28,9 @@ const FloatingComponent = ({ onClose }) => {
   return (
     <div className='floating-component'>
       <div>
-        <button onClick={onClose}>X</button>
-        <h3>Asistente</h3>
+        <div className='chat-exit'>
+          <button onClick={onClose} className='chat-exit-btn'>X</button>
+        </div>
         <div className="chat-box">
           <p className="chat-message">
             Bienvenido a la Academia Virtual Aramark. ¿En qué puedo ayudarte?
@@ -37,7 +38,7 @@ const FloatingComponent = ({ onClose }) => {
         </div>
         <div className="chat-input">
           <input type="text" placeholder="Escribe tu mensaje aquí" />
-          <button>></button>
+          <button className='btn btn-primary'> > </button>
         </div>
       </div>
     </div>
@@ -48,7 +49,7 @@ export default function Assistant() {
   const [isFloatingVisible, setFloatingVisible] = useState(false)
 
   const handleFloatingButtonClick = () => {
-    setFloatingVisible(true)
+    setFloatingVisible(!isFloatingVisible)
   }
   const handleCloseFloatingComponent = () => {
     setFloatingVisible(false)

@@ -27,7 +27,7 @@ export default function HomeComponent() {
   return (
     <div className="fade-in">
     <div className="title-container">
-      <h1 className="title text-start">Bienvendio usuario!</h1>
+      <h1 className="title text-start">Bienvenido usuario!</h1>
     </div>
 
     <div className="home-container d-flex justify-content-center">

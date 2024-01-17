@@ -1,10 +1,10 @@
 .floating-component {
   position: fixed;
   right: 15px;
-  bottom: 50px;
+  bottom: 76px;
   width: 380px;
   height: 400px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.75);
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -43,7 +43,26 @@
   box-shadow: 0px 0px 14px 4px black;
   transition: all 0.2s ease-in-out;
   transform: scale(1);
-  padding: 20px 20px 20px 20px;
+  padding: 4px 4px 4px 4px;
+}
+
+.chat-exit {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+.chat-exit-btn {
+  border-radius: 50px 50px 50px 50px;
+  background-color: rgba(255,255,255, .2);
+  color: red;
+  transition: all 0.1s ease-in-out;
+  border: none;
+  scale: .9;
+}
+.chat-exit-btn:hover {
+  background-color: rgba(255,0,127, .8);
+  color: white;
 }
 
 .chat-message {

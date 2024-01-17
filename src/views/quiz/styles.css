@@ -41,3 +41,10 @@
   background-color: #189162;
   border-radius: 50%;
 }
+
+.quiz-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
