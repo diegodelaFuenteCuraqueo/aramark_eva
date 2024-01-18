@@ -2,9 +2,15 @@ import React, { useState } from 'react';
 import './styles.css'
 import '../../App.css'
 import { roles, temasDeInteres } from '../../data.js'
+import { useNavigate } from 'react-router-dom';
 
 function RegisterComponent() {
-  const [selectedItems, setSelectedItems] = useState([]);
+  const [selectedItems, setSelectedItems] = useState([])
+  const navigate = useNavigate()
+
+  const handleClick = () => {
+    navigate("/malla")
+  }
 
   const handleCheckboxChange = (event) => {
     if (event.target.checked && selectedItems.length === 5) {
@@ -92,7 +98,7 @@ function RegisterComponent() {
           </div>
 
           <div className="register-element register-btn">
-            <button className="btn btn-primary">Registrarse</button>
+            <button className="btn btn-primary" onClick={handleClick}>Registrarse</button>
           </div>
         </div>
 
