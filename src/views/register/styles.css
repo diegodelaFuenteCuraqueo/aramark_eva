@@ -2,6 +2,7 @@
   display: flex;
   width: 80%;
   margin: auto auto;
+  margin-bottom: 50px;
   flex-direction: column;
   flex-wrap: nowrap;
   padding: 20px 20px;
@@ -10,9 +11,35 @@
 }
 
 .register-element {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.register-element > label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.intereses-profesionales {
   margin-top: 20px;
   margin-bottom: 15px;
   width: 100%;
+}
+
+.tema-box {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.temas-input {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 20%;
 }
 
 .register-btn {
@@ -23,8 +50,14 @@
   width: 80%;
 }
 
+hr {
+  margin-top: 60px !important;
+}
+
 .register-btn > button {
   width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
   background-color: rgb(3, 32, 52) !important;
 }
 

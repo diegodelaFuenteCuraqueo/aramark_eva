@@ -2,7 +2,7 @@ import React from 'react'
 import './styles.css'
 import QuizCard from './components/QuizCard.jsx'
 import { useNavigate } from 'react-router-dom'
-import quizQuestions from '../../data.js'
+import { quizQuestions } from '../../data.js'
 
 function QuizComponent() {
   const navigate = useNavigate()
