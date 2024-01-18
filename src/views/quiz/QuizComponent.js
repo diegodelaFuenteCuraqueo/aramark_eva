@@ -7,7 +7,7 @@ import { quizQuestions } from '../../data.js'
 function QuizComponent() {
   const navigate = useNavigate()
   const handleClick = () => {
-    navigate("/home")
+    navigate("/certificate")
   }
 
   return (

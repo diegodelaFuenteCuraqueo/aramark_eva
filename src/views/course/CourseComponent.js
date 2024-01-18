@@ -2,6 +2,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import VideoCard from '../../components/VideoCard.js/index.js'
+import { courses } from '../../data.js'
 import '../../App.css'
 import './styles.css'
 
