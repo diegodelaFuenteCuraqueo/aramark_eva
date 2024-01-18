@@ -9,6 +9,7 @@ import Certificate from "./certificate"
 import NavigationBar from "../components/NavegationBar"
 import Assistant from "../components/Assistant/AssistantComponent"
 import ScrollToTop from "../components/ScrollToTop"
+import Register from "./register"
 
 export default function Views() {
   return (
@@ -18,6 +19,7 @@ export default function Views() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/home" element={<Home />} />
         <Route path="/course" element={<Course />} />
         <Route path="/class" element={<Class />} />

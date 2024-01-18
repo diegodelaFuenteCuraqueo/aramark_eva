@@ -1,0 +1,33 @@
+.register-container {
+  display: flex;
+  width: 80%;
+  margin: auto auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 20px 20px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+}
+
+.register-element {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.register-btn {
+  /*margin: auto auto;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.register-btn > button {
+  width: 100%;
+  background-color: rgb(3, 32, 52) !important;
+}
+
+.register-btn > button:hover {
+  background-color: rgb(53, 82, 102) !important;
+}

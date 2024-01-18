@@ -20,6 +20,7 @@ export default function NavigationBar() {
               <Dropdown.Item as={Link} to="/home">Home</Dropdown.Item>
               {/*<Dropdown.Item as={Link} to="/course">Course</Dropdown.Item>*/}
               {/*<Dropdown.Item as={Link} to="/videoplayer">VideoPlayer</Dropdown.Item>*/}
+              <Dropdown.Item as={Link} to="/register">Registrar usuario</Dropdown.Item>
               <Dropdown.Item as={Link} to="/quiz">Quiz</Dropdown.Item>
               <Dropdown.Item as={Link} to="/certificate">Certificate</Dropdown.Item>
               <Dropdown.Item as={Link} to="/login">Cerrar sesión</Dropdown.Item>
@@ -28,9 +29,9 @@ export default function NavigationBar() {
         </Nav>
       </Navbar.Collapse>
       <Navbar.Brand href="/home">
-      <div className='logo-box'>
-        <img className='logo grow' src="/assets/Aramark_logo_horizontal.png" alt="Aramark Logo"></img>
-      </div>
+        <div className='logo-box'>
+          <img className='logo grow' src="/assets/Aramark_logo_horizontal.png" alt="Aramark Logo"></img>
+        </div>
       </Navbar.Brand>
     </Navbar>
   )

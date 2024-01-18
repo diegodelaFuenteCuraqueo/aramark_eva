@@ -54,7 +54,13 @@ export default function HomeComponent() {
 
       <div className="text-center home-element">
         <div className="home-element-title">
-          <h2>Mis reconocimientos</h2>
+          <h2>Mi Malla</h2>
+        </div>
+      </div>
+
+      <div className="text-center home-element">
+        <div className="home-element-title">
+          <h2>Mis Reconocimientos</h2>
         </div>
       </div>
 
