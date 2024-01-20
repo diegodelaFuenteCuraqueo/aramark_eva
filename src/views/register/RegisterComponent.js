@@ -80,7 +80,7 @@ function RegisterComponent() {
             <label htmlFor="intereses-profesionales">Intereses profesionales (puede seleccionar hasta 5):</label>
             <div className='intereses-profesionales' id='intereses-profesionales'>
               {
-                temasDeInteres.map((tema, index) => (
+                [...temasDeInteres, ...roles].map((tema, index) => (
                   <div className='tema-box' key={index}>
                     <input
                       className='temas-input'

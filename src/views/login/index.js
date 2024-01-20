@@ -14,7 +14,7 @@ const disclaimer = `
 function Login() {
   return (
     <div>
-      <ModalComponent title="Prototipo de funcionalidad de baja calidad" message={disclaimer}/>
+      <ModalComponent title="Prototipo de funcionalidad de baja fidelidad" message={disclaimer}/>
       <LoginComponent />
     </div>
   );
