@@ -14,11 +14,11 @@ export default function LoginComponent() {
     <>
       <div className="login-container d-flex justify-content-center">
 
+     
+        <div className="login-form w-100 text-center">
         <div className="login-image w-100 text-center">
           <img className='main-logo' src="/assets/Aramark_logo_vertical.png" alt="Aramark Logo"></img>
         </div>
-        <div className="login-form w-100 text-center">
-
         <div className="login-title w-100 text-center">
           <h1>Academia Virtual</h1>
         </div>

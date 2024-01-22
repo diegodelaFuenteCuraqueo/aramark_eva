@@ -51,8 +51,15 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'GothamBold';
+  src: url('../public/assets/GothamBold.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1 {
-  font-family: 'RecklessNeue';
+  font-family: 'GothamBold';
   font-weight: bolder;
   text-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
