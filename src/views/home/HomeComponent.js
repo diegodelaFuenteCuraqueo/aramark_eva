@@ -30,7 +30,23 @@ export default function HomeComponent() {
   return (
     <div className="fade-in">
     <div className="title-container">
-      <h1 className="title text-start">Bienvenido usuario!</h1>
+      <h1 className="title text-start">¡Bienvenido, José Luis!</h1>
+
+      <div className="status-container">
+        <div className="status-box">
+          <div>
+            <p>Llevas <strong>5 reconocimientos</strong>. ¡Aún puedes más!</p>
+            </div>
+          <div>
+            <p>Estás en el ranking <strong>#32 de 180</strong> usuarios con tu mismo perfil.</p>
+            </div>
+        </div>
+
+        <div className="profile-img-container grow">
+          <img src="assets/JL.jpeg" alt="Profile" className="profile-image"></img>
+        </div>
+      </div>
+
     </div>
 
     <div className="home-container d-flex justify-content-center">

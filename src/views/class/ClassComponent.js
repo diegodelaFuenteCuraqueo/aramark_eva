@@ -32,18 +32,36 @@ function ClassComponent() {
       </div>
 
       <div className=" class-element class-description">
+
         <div className="class-description-element">
           <h3 className="home-element-title">{title} - {course}</h3>
         </div>
         <div className="class-description-element">
           <p>{description}</p>
         </div>
+
+        <div className="class-description-element">
+          <h3 className="home-element-title">Material de apoyo</h3>
+        </div>
+        <div className="class-description-element">
+          <p>En esta sección puedes encontrar links, pdf's, imágenes y otros elementos de apoyo para tu aprendizaje.</p>
+        </div>
+        <div className="class-description-material">
+          <button className="btn btn-link">Resumen de la clase (PDF)</button>
+          <button className="btn btn-link">Normativa Vigente (link)</button>
+          <button className="btn btn-link">Diagrama de contenidos (img)
+            <img src="https://www.fao.org/3/Y4893S/y4893s1o.jpg" alt="Diagrama" className="diagrama-image"></img>
+          </button>
+
+        </div>
+
         <div className="class-description-element">
           <h3 className="home-element-title">Cuestionario de la clase</h3>
         </div>
         <div className="class-description-element">
           <p>Realiza el cuestionario para evaluar tus aprendizajes y continuar con el curso</p>
         </div>
+
         <div className="class-description-element">
           <button className="btn btn-primary quiz-btn" onClick={handleClick}>Realizar Quiz</button>
         </div>

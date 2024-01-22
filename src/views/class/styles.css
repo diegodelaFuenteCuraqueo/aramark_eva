@@ -48,6 +48,37 @@ h3 {
   }
 }
 
+.class-description-material {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  button {
+    margin: 20px;
+    margin-right: 60px;
+    border: 2px solid red;
+    height: 150px;
+    box-shadow:rgba(0, 0, 0, .5) 5px 5px 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 25px;
+    img {
+      width: 50px;
+      height: 80px;
+    }
+  }
+  button:hover {
+    background-color: lightgray;
+    color: white;
+  }
+}
+
 .button-container {
   width: 100%;
   display: flex;
